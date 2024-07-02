@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 500px) {
+  main > .card-section {
+    margin: 0px 0 130px 0px !important;
+    border-radius: 0px !important;
+  }
+}
+main > .card-section {
+  margin: 20px 20px 130px 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgba(122, 122, 122, 0.5) 0px 25px 50px, rgba(122, 122, 122, 0.2) 0px -5px 6px;
+}
+main > .card-section > .row {
+  max-width: 500px;
+}
+main > .card-section > .row > .top-section > .img-section {
+  position: relative;
+}
+main > .card-section > .row > .top-section > .img-section > .img-division > img {
+  max-width: 500px;
+}
+main > .card-section > .row > .top-section > .img-section > .img-svg {
+  bottom: -2px;
+  left: -2px;
+  position: absolute;
+  width: calc(100% + 4px);
+}
+main > .card-section > .row > .top-section > .top-textSection {
+  margin: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: 1px dashed black;
+}
+main > .card-section > .row > .top-section > .top-textSection > span {
+  display: block;
+}
+main > .card-section > .row > .top-section > .top-textSection > .text-name {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+}
+main > .card-section > .row > .top-section > .top-textSection > .text-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+main > .card-section > .row > .top-section > .top-textSection > .text-company {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+main > .card-section > .row > .bottom-section {
+  margin: 1.5rem;
+}
+main > .card-section > .row > .bottom-section > .top-text {
+  font-size: 1.1rem;
+}
+main > .card-section > .row > .bottom-section > .profile-info > ul {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+main > .card-section > .row > .bottom-section > .profile-info > ul > li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+main > .card-section > .row > .bottom-section > .profile-info > ul > li > div {
+  align-self: flex-start;
+  height: 2.625rem;
+  margin-right: 0.8125rem;
+  width: 2.625rem;
+  align-items: center;
+  background: rgb(143, 96, 222);
+  border-radius: 100%;
+  display: inline-flex;
+  justify-content: center;
+  padding: 0px;
+  transition-duration: 300ms;
+  transition-property: background-color, color;
+}
+main > .card-section > .row > .bottom-section > .profile-info > ul > li > div > svg {
+  color: rgb(255, 255, 255);
+  height: 1.5rem;
+  width: 1.5rem;
+}
+main > .bottom-fixed-section {
+  position: fixed;
+  bottom: 0;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+main > .bottom-fixed-section > :first-child > button {
+  background: rgb(143, 96, 222);
+  border: none;
+  color: white;
+  margin: 10px 0px;
+  padding: 10px 16px;
+  width: 60%;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+main > .bottom-fixed-section > :first-child > button:hover {
+  background-color: rgb(85, 53, 141);
+}
+main > .bottom-fixed-section > :last-child {
+  background: rgb(143, 96, 222);
+  color: white;
+  border-radius: 26px 26px 0 0;
+  padding: 10px;
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */
